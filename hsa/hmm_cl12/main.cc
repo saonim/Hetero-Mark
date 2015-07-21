@@ -26,7 +26,7 @@ void ParseArgument(int argc, char **argv)
 			"Verification Mode", 
 			"-v", "--verify",
 			"Enter verification mode.\n"
-			"Output will be elliminated if in benchmark mode.", 
+			"\t\tOutput will be elliminated if in benchmark mode.", 
 			"false",
 			typeid(bool)
 			);	

@@ -1,4 +1,4 @@
-Build instruction
+Build
 ====================
 
 Run the following instruction to compile the program. Make sure your current
@@ -16,3 +16,15 @@ directory
 ```
 cloc.sh kernels.cl
 ```
+
+Execution 
+===================
+To execute any benchmark, simply run the executable in the benchmark's 
+directory. Take iir_cl12 as an example, run the following command
+
+```
+cd iir_cl12
+./IIR12
+```
+
+For command of each benchmark, use --help option of each executable.
